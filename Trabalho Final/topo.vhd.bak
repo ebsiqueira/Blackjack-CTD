@@ -1,0 +1,60 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+
+entity topo is
+port (CLOCK_50: in std_logic;
+		KEY: in std_logic_vector(3 downto 0);
+		SW: in std_logic_vector(9 downto 0);
+		
+		HEX5: out std_logic_vector(6 downto 0);
+		
+		LEDR: out std_logic_vector(9 downto 0)
+	);
+end topo;
+
+architecture circuito of topo is
+signal R1, R2, E1, E2, E3, E4, overflow, end_game, end_time, win0, win1: std_logic;
+signal SEL: std_logic_vector(1 downto 0);
+component ButtonSync is
+port (
+		-- Input ports
+		key0	: in  std_logic;
+		key1	: in  std_logic;
+		key2	: in  std_logic;
+		key3	: in  std_logic;	
+		clk : in std_logic;
+		-- Output ports
+		btn0	: out std_logic;
+		btn1	: out std_logic;
+		btn2	: out std_logic;
+		btn3	: out std_logic
+	);
+end component;
+
+component datapath is
+port (Relogio_50: in std_logic;
+		Botao: in std_logic_vector(3 downto 0);
+		Chaves: in std_logic_vector(9 downto 0);
+		
+		Dis5: out std_logic_vector(6 downto 0);
+		
+		SEL: in std_logic_vector(1 downto 0);
+		R1, R2, E1, E2, E3, E4: in std_logic;
+		overflow, end_game, end_time, win0, win1: out std_logic;
+		
+		Lampadas: out std_logic_vector(9 downto 0)
+
+	);
+end component;
+signal BTN: std_logic_vector(3 downto 0);
+begin
+		R2 <= '0';
+		E4 <= '1';
+		R1 <= '0';
+		E1 <= '1';--dps controlado pelo controle
+		E2 <= '1';
+
+		AUX0: ButtonSync port map(KEY(0), KEY(1), KEY(2), KEY(3), CLOCK_50, BTN(0), BTN(1), BTN(2), BTN(3));
+
+		DP: datapath port map(CLOCK_50, BTN(3 downto 0), SW(9 downto 0), HEX5(6 downto 0), SEL(1 downto 0), R1, R2, E1, E2, E3, E4 , overflow, end_game, end_time, win0, win1, LEDR(9 downto 0));
+end circuito;

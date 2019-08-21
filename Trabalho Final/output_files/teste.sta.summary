@@ -1,0 +1,233 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -9.871
+TNS   : -9.871
+
+Type  : Slow 1100mV 85C Model Setup 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -9.278
+TNS   : -9.278
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -4.186
+TNS   : -360.298
+
+Type  : Slow 1100mV 85C Model Setup 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -2.545
+TNS   : -11.752
+
+Type  : Slow 1100mV 85C Model Setup 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : -2.225
+TNS   : -36.711
+
+Type  : Slow 1100mV 85C Model Hold 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -5.968
+TNS   : -5.968
+
+Type  : Slow 1100mV 85C Model Hold 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -2.851
+TNS   : -2.851
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : -0.824
+TNS   : -2.151
+
+Type  : Slow 1100mV 85C Model Hold 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -0.445
+TNS   : -6.495
+
+Type  : Slow 1100mV 85C Model Hold 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : 1.081
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -6.010
+TNS   : -142.492
+
+Type  : Slow 1100mV 85C Model Recovery 'CLOCK_50'
+Slack : -3.407
+TNS   : -388.596
+
+Type  : Slow 1100mV 85C Model Removal 'CLOCK_50'
+Slack : 0.863
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : 5.444
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -5.974
+TNS   : -33.218
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -3.123
+TNS   : -19.219
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.614
+TNS   : -93.661
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -0.394
+TNS   : -13.612
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -9.659
+TNS   : -9.659
+
+Type  : Slow 1100mV 0C Model Setup 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -9.237
+TNS   : -9.237
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -4.072
+TNS   : -335.460
+
+Type  : Slow 1100mV 0C Model Setup 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -2.636
+TNS   : -11.898
+
+Type  : Slow 1100mV 0C Model Setup 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : -2.190
+TNS   : -35.142
+
+Type  : Slow 1100mV 0C Model Hold 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -5.942
+TNS   : -5.942
+
+Type  : Slow 1100mV 0C Model Hold 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -2.852
+TNS   : -2.852
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.968
+TNS   : -2.577
+
+Type  : Slow 1100mV 0C Model Hold 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -0.386
+TNS   : -5.364
+
+Type  : Slow 1100mV 0C Model Hold 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : 1.068
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -6.066
+TNS   : -143.916
+
+Type  : Slow 1100mV 0C Model Recovery 'CLOCK_50'
+Slack : -3.373
+TNS   : -384.151
+
+Type  : Slow 1100mV 0C Model Removal 'CLOCK_50'
+Slack : 0.798
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : 5.484
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -5.893
+TNS   : -33.809
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -3.000
+TNS   : -19.364
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.627
+TNS   : -84.363
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -0.394
+TNS   : -13.499
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : 0.369
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -4.559
+TNS   : -4.559
+
+Type  : Fast 1100mV 0C Model Setup 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -4.055
+TNS   : -4.055
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.428
+TNS   : -147.876
+
+Type  : Fast 1100mV 0C Model Setup 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -1.337
+TNS   : -5.984
+
+Type  : Fast 1100mV 0C Model Setup 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : -0.877
+TNS   : -13.650
+
+Type  : Fast 1100mV 0C Model Hold 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -2.941
+TNS   : -2.941
+
+Type  : Fast 1100mV 0C Model Hold 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -1.494
+TNS   : -1.494
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : -0.803
+TNS   : -2.296
+
+Type  : Fast 1100mV 0C Model Hold 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : 0.011
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : 0.822
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : -4.042
+TNS   : -95.301
+
+Type  : Fast 1100mV 0C Model Recovery 'CLOCK_50'
+Slack : -2.005
+TNS   : -227.612
+
+Type  : Fast 1100mV 0C Model Removal 'CLOCK_50'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : 3.939
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'datapath:DP|decbcd:AUX14|aux[1]'
+Slack : -2.751
+TNS   : -12.296
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'datapath:DP|decbcd:AUX15|aux[1]'
+Slack : -1.390
+TNS   : -5.514
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.709
+TNS   : -74.955
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'datapath:DP|FSM_clock:AUX1|saida[1]'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ButtonSync:AUX0|btn2state.SaidaAtiva'
+Slack : 0.436
+TNS   : 0.000
+
+------------------------------------------------------------
